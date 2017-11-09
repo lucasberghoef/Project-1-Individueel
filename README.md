@@ -16,7 +16,7 @@ I used the following examples and data:
 
 # Data
 
-### Movie ratings by users of The Movie DB
+### TV show ratings by users of The Movie DB
 
 This data consists of ratings per episode of all the seasons of 7 well known TV
 shows (with at least 5 seasons).
