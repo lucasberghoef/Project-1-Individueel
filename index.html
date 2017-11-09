@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TV Shows - Lucas Berghoef</title>
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>TV Show Ratings over time</h1>
+        <div class="container container--half">
+            <p>This data visualisation compares the ratings of 7 TV shows that have gone on for at least 5 seasons to see if shows get worse over time.</p>
+            <p>The left line chart shows the rating per episode over the life span of the series.</p>
+            <p>The right area chart compares the first half (75% opacity) of every show with the second half (50% opacity) of the same show to see what half gets a higher rating on average.</p>
+            <p>The charts probably look quite full right now, so try turning off a couple of shows by clicking their names in the legend so you can compare the shows you want!</p>
+        </div>
+        <div class="container">
+            <form id="legend"></form>
+        </div>
+        <div id="app" class="container">
+            <section class="left">
+                <svg id="lineChart" width="640" height="360"></svg>
+            </section>
+            <section class="right">
+                <svg id="areaChart" width="640" height="360"></svg>
+                <ul class="explanation">
+                    <li class="explanation__item explanation__item--first">
+                        The first half of all seasons
+                    </li>
+                    <li class="explanation__item explanation__item--second">
+                        The second half of all seasons
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
