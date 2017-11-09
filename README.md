@@ -23,7 +23,7 @@ shows (with at least 5 seasons).
 It consists of ratings of the following shows: Game of Thrones, Breaking Bad,
 The Sopranos, Arrested Development, Dexter, Mad Men, Community.
 
-Data from [`themoviedb.org`][https://www.themoviedb.org].
+Data from [`themoviedb.org`](https://www.themoviedb.org).
 
 ### Download link
 
