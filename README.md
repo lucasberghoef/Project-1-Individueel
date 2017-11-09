@@ -55,6 +55,7 @@ A selection of the most important keys (for me) in the dataset:
     "still_path": "/wv5NQlqc45hJktyYSLAQVT5LcE0.jpg",
     "vote_average": 6.8,
     "vote_count": 5
+}
 ```
 
 
