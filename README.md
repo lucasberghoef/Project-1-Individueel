@@ -1,7 +1,7 @@
 # Individueel Project A - Lucas Berghoef (500771170)
 
 In this individual project I had to design a data visualisation where the user
-can see (at least) three different sorts of insight (f.e. who, where, when, how,
+can see (at least) three different sorts of insight (i.e. who, where, when, how,
 what or why) from my dataset.
 
 I used the following examples and data:
